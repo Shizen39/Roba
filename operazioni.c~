@@ -10,7 +10,6 @@ mainbrutto_ma_popo_brutto main()
 	printf("\nScegliere operazione:\na.Somma\nb.Moltiplicazione\nc.Comparazione\n>");
 	scanf("%c",&n);
 
-
 	if(n=='a')
 		printf("\nSommo\n	)+	\r(");
 		else
