@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "operazioni.h"
 
-mainbrutto_ma_popo_brutto main()
+bellissimo main()
 {
 	char  n;
 	float x;
