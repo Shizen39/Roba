@@ -5,12 +5,12 @@ int main()
 {
   char n[20];
   scanf("%s", &n[0]);
-  int x= strlen(n);
-  for(int a = 0; a<strlen(n); a++)
+  for(int x = strlen(n); x>=0; x--)
       {
-	x = x-1;
-	printf("%c", n[x]);
-      }
+       printf("%c", n[x]);
+      } // Cleaner and 'faster'.
+      // Instead of checking when a < x you could just subtract from
+      // x until it reaches 0 
   printf("\n");
   return 0;
 }
