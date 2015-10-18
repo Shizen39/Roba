@@ -1,2 +1,2 @@
 # operazioni
-Personal excercise (learning to code).
+Personal excercises (learning to code).
