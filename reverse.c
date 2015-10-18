@@ -8,9 +8,7 @@ int main()
   for(int x = strlen(n); x>=0; x--)
       {
        printf("%c", n[x]);
-      } // Cleaner and 'faster'.
-      // Instead of checking when a < x you could just subtract from
-      // x until it reaches 0 
+      }
   printf("\n");
   return 0;
 }
