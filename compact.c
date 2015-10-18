@@ -15,16 +15,16 @@ int main()
       break;
     case '*':
       res=x*y;
-	  break;
-	case '/':
-	  res=x/y;
       break;
-	case '-':
-	  res=x-y;
+    case '/':
+      res=x/y;
       break;
-	default:
-	  printf("ERRORE\n");
-	  return 1;
+    case '-':
+      res=x-y;
+      break;
+    default:
+      printf("ERRORE\n");
+      return 1;
     }
   printf("%g\n",res);
   return 0;
