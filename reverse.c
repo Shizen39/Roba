@@ -3,7 +3,7 @@
 
 int main()
 {
-  char n[20];
+  char n[20];//shshsh
   scanf("%s", &n[0]);
   for(int x = strlen(n); x>=0; x--)
       {
